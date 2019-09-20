@@ -35,7 +35,7 @@ You can check whether you've successfully added the document to Elasticsearch vi
 
 # Writing queries
 Elasticsearch has [its own query language](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html). Kibana has a dev tool feature that lets you query your search index. 
-![screenshot of kibana dev tool](kibana--dev-tool)
+![screenshot of kibana dev tool](screenshots/kibana--dev-tool.png)
 If you've successfully index a pdf document in `tika.ipynb`, you can try the following queries
 ```
 GET /poc-reghub/_search
